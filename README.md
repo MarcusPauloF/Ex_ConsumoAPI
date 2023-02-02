@@ -1,6 +1,6 @@
-# consumo_servico_avancado
+# consumo servico
 
-Este código é uma aplicação Flutter que faz requisições HTTP (GET, POST, PUT, PATCH, DELETE) a um servidor remoto usando a biblioteca http. A classe Home é uma tela que apresenta botões para fazer essas requisições. A classe _HomeState contém os métodos que realizam as requisições HTTP, usando o objeto http para enviar as requisições. Os dados retornados são decodificados de JSON para um objeto Dart e exibidos na tela em uma lista. Além disso, o resultado das requisições é exibido no console, incluindo o código de status e o corpo da resposta.
+Este código é um exemplo em Flutter que faz requisições HTTP (GET, POST, PUT, PATCH, DELETE) a um servidor remoto usando a biblioteca http. A classe Home é uma tela que apresenta botões para fazer essas requisições. A classe _HomeState contém os métodos que realizam as requisições HTTP, usando o objeto http para enviar as requisições. Os dados retornados são decodificados de JSON para um objeto Dart e exibidos na tela em uma lista. Além disso, o resultado das requisições é exibido no console, incluindo o código de status e o corpo da resposta.
 
 # O que usei nele ?
 
