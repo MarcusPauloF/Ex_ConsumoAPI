@@ -4,8 +4,12 @@ Este código é uma aplicação Flutter que faz requisições HTTP (GET, POST, P
 
 # O que usei nele ?
 
- Consumo de serviços HTTP usando a biblioteca http.
- Parsing de JSON com json.decode() e json.encode() para enviar ou receber dados no formato JSON.
- Utilização de Future para fazer requisições assíncronas.
- Utilização de FutureBuilder para atualizar a interface de usuário baseada em dados assíncronos.
- CRUD (Create, Read, Update e Delete) com requisições HTTP (POST, GET, PUT e DELETE).
+👉Consumo de serviços HTTP usando a biblioteca http.<br>
+ 
+👉Parsing de JSON com json.decode() e json.encode() para enviar ou receber dados no formato JSON.<br>
+
+👉Utilização de Future para fazer requisições assíncronas.<br>
+
+👉Utilização de FutureBuilder para atualizar a interface de usuário baseada em dados assíncronos.<br>
+
+👉CRUD (Create, Read, Update e Delete) com requisições HTTP (POST, GET, PUT e DELETE).<br>
