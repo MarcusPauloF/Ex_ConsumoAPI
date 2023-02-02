@@ -1,16 +1,11 @@
 # consumo_servico_avancado
 
-A new Flutter project.
+Este código é uma aplicação Flutter que faz requisições HTTP (GET, POST, PUT, PATCH, DELETE) a um servidor remoto usando a biblioteca http. A classe Home é uma tela que apresenta botões para fazer essas requisições. A classe _HomeState contém os métodos que realizam as requisições HTTP, usando o objeto http para enviar as requisições. Os dados retornados são decodificados de JSON para um objeto Dart e exibidos na tela em uma lista. Além disso, o resultado das requisições é exibido no console, incluindo o código de status e o corpo da resposta.
 
-## Getting Started
+# O que usei nele ?
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ Consumo de serviços HTTP usando a biblioteca http.
+ Parsing de JSON com json.decode() e json.encode() para enviar ou receber dados no formato JSON.
+ Utilização de Future para fazer requisições assíncronas.
+ Utilização de FutureBuilder para atualizar a interface de usuário baseada em dados assíncronos.
+ CRUD (Create, Read, Update e Delete) com requisições HTTP (POST, GET, PUT e DELETE).
